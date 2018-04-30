@@ -4,14 +4,14 @@ Title: Tools for qPLEX-RIME data analysis
 Version: 0.99.0
 Date: 2018-04-23
 Author: Matthew Eldridge, Kamal Kishore, Ashley Sawle
-Maintainer: Ashley Sawle <ads2202cu@gmail.com>
+Maintainer: Kamal Kishore <kamal.fartiyal84@gmail.com>
 Description: Tools for quantitative proteomics data analysis generated from qPLEX-RIME method.
 License: GPL-2
 LazyLoad: yes
 Imports: tidyr, preprocessCore, limma, ggplot2, RColorBrewer, stats, utils,
          Biostrings, GenomicRanges, IRanges, graphics, BiocGenerics,
 	       purrr, tibble, ggdendro, grDevices, dplyr, magrittr
-Depends: R (>= 3.4), Biobase, statmod, MSnbase  
+Depends: R (>= 3.5), Biobase, statmod, MSnbase  
 Suggests: knitr
 VignetteBuilder: knitr
 biocViews: Proteomics, MassSpectrometry, Normalization, Preprocessing, QualityControl, DataImport
