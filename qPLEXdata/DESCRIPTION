@@ -1,0 +1,16 @@
+Package: qPLEXdata
+Type: Package
+Title: Data accompanying qPLEXanalyzer package
+Version: 0.99.0
+Date: 2018-05-03
+Author: Kamal Kishore
+Maintainer: Kamal Kishore <kamal.fartiyal84@gmail.com>
+Description: qPLEX-RIME and Full proteome TMT mass spectrometry datasets.
+Depends: R (>= 3.5)
+Suggests: qPLEXanalyzer
+Imports: utils, knitr, MSnbase, dplyr
+VignetteBuilder: knitr
+License: GPL-2
+biocViews: ExperimentData, MassSpectrometryData, Proteome
+NeedsCompilation: no
+
